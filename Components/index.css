@@ -1,0 +1,114 @@
+body {
+    font-family: "Caveat", cursive;
+    font-size: larger;
+}
+
+.main-container {
+    background-color: rgb(255, 221, 127);
+    width: 100%;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.main-container img {
+    margin-left: -80%;
+    position: absolute;
+}
+
+.main-container span {
+    margin-left: 45px;
+    font-size: 2rem;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    gap: 65px;
+}
+
+.choices {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-top: 15px;
+}
+
+.choice1 {
+    border: 1px solid rgb(111, 185, 142);
+    border-radius: 100px;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(111, 185, 142);
+    box-shadow: 4px 5px 8px rgba(0, 0, 0, 0.719);
+}
+
+.choice2 {
+    border: 1px solid rgba(151, 213, 200, 0.466);
+    border-radius: 100px;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(151, 213, 200);
+    box-shadow: 4px 5px 8px rgba(0, 0, 0, 0.719);
+}
+
+.choice3 {
+    border: 5px solid rgb(89, 190, 198);
+    border-radius: 100px;
+    width: 193px;
+    height: 195px;
+    box-shadow: 4px 5px 8px rgba(0, 0, 0, 0.719);
+}
+
+.choice1:hover {
+    box-shadow: -1px -0.5px 10px 10px rgba(142, 236, 181, 0.76);
+}
+
+.choice2:hover {
+    box-shadow: -1px -0.5px 10px 10px rgba(76, 133, 120, 0.719);
+}
+
+.choice3:hover {
+    box-shadow: -1px -0.5px 7px 7px rgba(89, 191, 198, 0.61);
+}
+
+.labels {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    font-weight: 800;
+    font-size: larger;
+    gap: 205px;
+}
+
+.score-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    font-size: 2rem;
+    color: blueviolet;
+    font-weight: 600;
+}
+
+#user-score,
+#comp-score {
+    margin-top: -5px;
+    margin-bottom: -10px;
+    font-size: 4rem;
+}
+
+.msg-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #081b31;
+    color: white;
+    height: auto;
+    font-size: 2rem;
+    margin-top: 15px;
+}

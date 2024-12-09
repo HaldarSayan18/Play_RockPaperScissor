@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+    </style>
+</head>
+
+<body>
+    <div class="main-container">
+        <img src="../Images/rock-paper-scissors.png" alt="rps" height="80px" width="85px" />
+        <span>🆁🅾🅲🅺 🅿🅰🅿🅴🆁 🆂🅲🅸🆂🆂🅾🆁 </span>
+    </div>
+    <div class="choices">
+        <div class="choice choice1" id="rock">
+            <img src="../Images/rock.png" alt="rock" height="205px" width="200px" />
+        </div>
+        <div class="choice choice2" id="paper">
+            <img src="../Images/paper.png" alt="paper" height="215 id=""" width="200px" />
+        </div>
+        <div class="choice choice3" id="scissor">
+            <img src="../Images/scissors.png" alt="scissor" height="200px" width="195px" />
+        </div>
+    </div>
+    <div class="labels">
+        <span>Rock</span>
+        <span>Paper</span>
+        <span>Scissor</span>
+    </div>
+    <div class="score-card">
+        <div class="score">
+            <p id="user-score">0</p>
+            <span id="userName">you</span>
+        </div>
+        <div class="score">
+            <p id="comp-score">0</p>
+            <span>Computer</span>
+        </div>
+    </div>
+    <div class="msg-container" id="msg-container">
+        <p id="msg">
+            <span>Play your move</span>
+        </p>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>
